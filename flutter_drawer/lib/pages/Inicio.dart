@@ -19,8 +19,11 @@ class _paginaInicialState extends State<paginaInicial> {
           ),
           Container(
             child: Column(children: [
-              Image.asset('images/takya1.jpg'),
-              Icon(Icons.home, size: 170.0, color: Colors.orange),
+              Image.network(
+                'https://dl.dropboxusercontent.com/s/g3zvtjbg1glg6ym/Pintado%20de%20Takya1.jpg',
+                width: 200,
+                height: 200,
+              ),
               Text(
                 "Bienvenido a TakyaINC",
                 style: TextStyle(fontFamily: 'Marker', fontSize: 25),
