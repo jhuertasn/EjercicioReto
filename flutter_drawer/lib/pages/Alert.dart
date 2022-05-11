@@ -39,7 +39,7 @@ class Home extends StatelessWidget {
                 actions: <Widget>[
                   // usually buttons at the bottom of the dialog
                   new FlatButton(
-                    child: new Text("Close"),
+                    child: new Text("Cerrar"),
                     onPressed: () {
                       Navigator.of(context).pop();
                     },

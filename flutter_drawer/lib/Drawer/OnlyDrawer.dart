@@ -66,7 +66,7 @@ class OnlyDrawerState extends State<OnlyDrawer> {
             child: Text("Información del APP"),
             applicationIcon: Icon(Icons.favorite),
             applicationVersion: "v 10.1",
-            applicationName: "Demo Drawer",
+            applicationName: "¡Facil de usar, gratis, sin permisos requeridos!",
             icon: Icon(Icons.info),
           ),
           ListTile(
