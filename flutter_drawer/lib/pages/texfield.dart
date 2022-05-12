@@ -35,9 +35,15 @@ class _MicajadeTexto extends State<MicajadeTexto> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Container(
+              padding: EdgeInsets.all(15.0),
+              margin: EdgeInsets.all(1.0),
+              child: Image.network(
+                  "https://cdn.eldeforma.com/wp-content/uploads/2020/03/13895106-991137614327937-617654721244009846-n.png"),
+            ),
             TextField(
               decoration:
-                  const InputDecoration(hintText: "Ingrese el texto aquí"),
+                  const InputDecoration(hintText: "Pon aprueba tu floro"),
               onSubmitted: (String valortext) {
                 cambiar(valortext);
               },
